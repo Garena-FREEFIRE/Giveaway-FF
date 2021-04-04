@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tournament-FF</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA1amVCVOO7W58Duh9H45DkZwOCxFXusII",
+      authDomain: "tournament-ff-6b45d.firebaseapp.com",
+      databaseURL: "https://tournament-ff-6b45d-default-rtdb.firebaseio.com",
+      projectId: "tournament-ff-6b45d",
+      storageBucket: "tournament-ff-6b45d.appspot.com",
+      messagingSenderId: "672020618061",
+      appId: "1:672020618061:web:5c311e673c0a7c7db9b504"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="Form.js"></script>
+
+  <style>
+    body {
+      background-image: url("img/wp3144355.jpg");
+      margin-left: 200px;
+      margin-right: 700px;
+      margin-top: 75px;
+      margin-bottom: 0px;
+      border: 10px solid black;
+    }
+
+    input {
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 250px;
+      height: 30px;
+      stroke-width: 10px;
+    }
+
+    button {
+      color: white;
+      background-color: black;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 2px solid black;
+      border-radius: 100px;
+    }
+
+    h2 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  </style>
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+
+</body>
+
+</html>
