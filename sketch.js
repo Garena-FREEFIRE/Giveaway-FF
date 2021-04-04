@@ -29,7 +29,7 @@ function draw() {
     textSize(20);
     stroke(0);
     strokeWeight(4)
-    text("ONLY  '4'  PLAYER LEFT",200,160);
+    text("ONLY  FOR '4'  PLAYERS",195,160);
 
     form.display();
     drawSprites();

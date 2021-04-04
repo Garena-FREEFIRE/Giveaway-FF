@@ -31,7 +31,7 @@ class Form {
       });
 
       this.title2.html("after 1-2 Days you have diamond in your mail Box");
-      this.title2.position(325, 400);
+      this.title2.position(225, 400);
       this.title2.style('color', 0);
 
       this.button.hide();
