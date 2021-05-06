@@ -18,7 +18,6 @@ function setup() {
 }
 
 function draw() {
-    background(255);
 
     textSize(20);
     fill(0);
@@ -28,8 +27,8 @@ function draw() {
 
     textSize(20);
     stroke(0);
-    strokeWeight(4)
-    text("ONLY  FOR '4'  PLAYERS",195,160);
+    // strokeWeight(2)
+    text("ONLY  FOR '2'  PLAYERS",195,160);
 
     form.display();
     drawSprites();

@@ -4,16 +4,16 @@ class Form {
     this.input2 = createInput();
     this.input3 = createInput();
     this.count = 0;
-    this.title = createElement('h2');
+    // this.title = createElement('h2');
     this.title2 = createElement('h2');
     this.button = createButton("SUBMIT");
     this.image = loadImage("img/diamond.png");
   }
 
   display() {
-    this.title.html("→ FREEFIRE 1000 DIAMOND GIVEAWAY");
-    this.title.position(240, 600);
-    this.title.style('color', 0);
+    // this.title.html("→ FREEFIRE 1000 DIAMOND GIVEAWAY");
+    // this.title.position(240, 600);
+    // this.title.style('color', 0);
 
 
     this.button.position(440, 440);
