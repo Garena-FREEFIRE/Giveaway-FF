@@ -8,6 +8,7 @@ class Form {
     this.title2 = createElement('h2');
     this.button = createButton("SUBMIT");
     this.image = loadImage("img/diamond.png");
+    this.image2 = loadImage("img/BG2.png");
   }
 
   display() {
@@ -18,9 +19,9 @@ class Form {
 
     this.button.position(440, 440);
 
-    this.input1.position(380, 300);
-    this.input2.position(380, 350);
-    this.input3.position(380, 250);
+    this.input1.position(440, 300);
+    this.input2.position(440, 350);
+    this.input3.position(440, 250);
 
     this.button.mousePressed(() => {
       this.count += 1;
@@ -37,6 +38,7 @@ class Form {
       this.button.hide();
       });
 
-      image(this.image, 530, 530, 50, 50);
+      image(this.image, width/2 - 40, 500, 100, 100);
+      image(this.image2, 80, 130, 440, 200);
   }
 }
